@@ -1,0 +1,53 @@
+// Place all the styles related to the QuestionsController controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$gray: #F4F4F4;
+$background: #CDD1C4;
+
+body {
+  background: $background; // Using this variable
+  font-family: 'Arial';
+  margin: 20px;
+}
+
+.form {
+  font-family: 'Arial';
+  padding: 10px ;
+  background-color: lightgray;
+}
+
+.input {
+  padding:10px;
+  margin-right: 0;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #5C80BC;
+  color: white;
+  margin-left: 0;
+}
+
+.answer {
+  width: 50%;
+  font-family: 'Arial';
+  background-color: #5C80BC;
+  color:white;
+  padding: 15px;
+  border-left: 10px gray solid;
+}
+
+.question {
+  width: 50%;
+  font-family: 'Arial';
+  background-color: #E8C547;
+  color:black;
+  padding: 15px;
+  border-left: 10px gray solid;
+}
+
+.link {
+  font-family: 'Arial';
+  text-decoration: none;
+}
